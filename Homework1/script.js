@@ -67,14 +67,6 @@ for (const album of musicCollection) {
 // Клиент Ирина заказала: Чизкейк.
 */
 
-
-// Повара и их специализации
-const chefs = new Map([
-    ['Виктор', 'Пицца'],
-    ['Ольга', 'Суши'],
-    ['Дмитрий', 'Десерты']
-]);
-
 // Блюда и их повара
 const dishes = new Map([
     ['Пицца "Маргарита"', 'Виктор'],
@@ -92,7 +84,6 @@ const customerOrders = new Map();
 const customer1 = { name: 'Алексей' };
 const customer2 = { name: 'Мария' };
 const customer3 = { name: 'Ирина' };
-
 
 
 // Добавление заказа
